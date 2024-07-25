@@ -33,7 +33,7 @@ select floor(6.28);
 select ceil(6.28) ;
 
 Q11. Do operations on RegEx
-select
+SELECT REGEXP_LIKE('hello', 'hel.*'); 
 
 Q12 Compare 2 strings
 select 'abc' like 'cde' ;
@@ -42,5 +42,4 @@ Q13. Simulate an if else statement
 select if(3 > 5,'true','false');
 
 Q14. Grant all access priviledges
-GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY  
-'password' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
